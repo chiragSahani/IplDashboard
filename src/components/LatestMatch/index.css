@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.latest-match-card-container {
+  width: 100%;
+  background-color: #0f172a;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.latest-match-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.latest-match-details-1 {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-1 {
+    width: 33%;
+    margin-bottom: 0;
+  }
+}
+
+.latest-match-team-name {
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.latest-match-date {
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.match-details {
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.latest-match-team-logo {
+  width: 120px;
+  height: 120px;
+  align-self: center;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-team-logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0;
+  }
+}
+
+.latest-match-details-2 {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-2 {
+    width: 33%;
+    text-align: right;
+  }
+}
+
+.latest-match-label {
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.latest-match-value {
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
